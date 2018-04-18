@@ -30,12 +30,21 @@ h1, h2{
 }
 
 #asideRight{
+    padding-top: 40px;
+    font-size: 6em;
+}
 
+#social-media li{
+    padding: 25px;
 }
 
 .mainCont{
     background-color: #F2F2F2;
     font-size: 1.1em;
+}
+
+.iconColor{
+    color: #114B5F;
 }
 
 ul{
@@ -49,6 +58,14 @@ ul{
 }
 
 #mainCont-oneL-linkColor{
+    color:blue; !important;
+}
+
+#mainCont-finish-linkColor{
+    color:blue; !important;
+}
+
+#mainCont-finishSec-linkColor{
     color:blue; !important;
 }
 
@@ -75,6 +92,10 @@ ul{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.lgFitting{
+    height: 150px;
 }
 
 #mainCont-twoR-carrer{
