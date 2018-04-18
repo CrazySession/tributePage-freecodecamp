@@ -98,22 +98,22 @@ footer{
 /* #### Links Styling */
 a:link
 {
-    color: black;
+    color: white;
     text-decoration:none  !important;
 }
 a:visited
 {
-    color:black;
+    color: white;
     text-decoration:none !important;
 }
 a:hover
 {
-    color:black;
+    color: white;
     text-decoration:none !important;
 }
 
 a:active
 {
-    color: black;
+    color: white;
     text-decoration: none !important;
 }
