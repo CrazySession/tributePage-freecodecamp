@@ -14,6 +14,9 @@
         <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans"
               rel="stylesheet">
 
+        <!-- JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+
     </head>
 
     <body>
@@ -22,7 +25,7 @@
 
             <header>
                 <ul>
-                    <li class="right">
+                    <li id="float-right">
                         <img id="header-signature" src="img/Gary_Vaynerchuk_Signature.svg.png"/>
                     <li>
                         <a href="#"><h1 id="title">Gary Vaynerchuk</h1></a>
@@ -49,11 +52,18 @@
 
                 <ul>
                     <li class="left" id="mainCont-oneL">
-
+                        <ul>
+                            <li class="mainCont-oneL-One"><h3>Gary Vaynerchuk</h3></li>
+                            <li class="mainCont-oneL-One"><strong>Born</strong> - November 14, 1975</li>
+                            <li class="mainCont-oneL-One"><strong>Known for</strong> - Entrepreneurship, social media,<br>
+                                angel investing, wine education</li>
+                            <li class="mainCont-oneL-One"><strong>Website</strong> - <a id="mainCont-oneL-linkColor" target="_blank" href="https://www.garyvaynerchuk.com/"> garyvaynerchuk.com</a></li>
+                        </ul>
                     </li>
                     <li class="right" id="mainCont-oneR">
                         <img src="img/345px-Gary_Vaynerchuk_public_domain.jpg" />
                     </li>
+                    <li class="clear mainCont-line"></li>
                 </ul>
 
             </div>
@@ -62,7 +72,7 @@
 
                 <p>Thanks for the images
                     and articles/facts to
-                    <a href="https://en.wikipedia.org/wiki/Gary_Vaynerchuk">
+                    <a target="_blank" href="https://en.wikipedia.org/wiki/Gary_Vaynerchuk">
                         Wikipedia</a> </p>
 
             </footer>
